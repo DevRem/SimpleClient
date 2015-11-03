@@ -30,8 +30,6 @@ import ru.rem.server.session.packets.AbstractResponse;
 import ru.rem.server.session.packets.data.PacketAction;
 import ru.rem.server.session.packets.data.PacketStatus;
 
-// Переделать так что бы в каждом блоке присутствовал первый байт отвечающий за действие
-
 public class ServerHandler implements Runnable, ServerNavigation{
    
     public final int PORT = 8888;
