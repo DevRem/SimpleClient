@@ -137,7 +137,7 @@ public class ServerHandler implements Runnable, ServerNavigation{
             bb.flip();
             return getChannel().write(bb);
         } catch (IOException ex) {
-           // Проверить
+            // Обработать вероятность разорванной связи
         }
         return 0;
     }
